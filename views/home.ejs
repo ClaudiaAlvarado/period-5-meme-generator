@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>  
+    
+</head>
+<body>
+     <nav>
+    <div class="nav-wrapper pink">
+      <a href="/" class="brand-logo">Meme Generator</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        
+      </ul>
+      </div>
+     </nav>
+    <div class= "container">
+        <style>
+      body{
+        background-color:white;
+    </style>
+         <form action="/" method="POST">
+           <p>Enter top text here: <input name="top" /></p>
+           <p>Enter bottom text here: <input name="bot" /></p>
+    <p>
+      <label>
+        <input value="https://imgflip.com/s/meme/DJ-Pauly-D.jpg" name="choice" type="radio" checked />
+        <span><img src="https://imgflip.com/s/meme/DJ-Pauly-D.jpg" /></span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input value="https://imgflip.com/s/meme/Ancient-Aliens.jpg" name="choice" type="radio" checked />
+        <span><img src="https://imgflip.com/s/meme/Ancient-Aliens.jpg" /></span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input value="https://images.theconversation.com/files/38926/original/5cwx89t4-1389586191.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" name="choice" type="radio" checked />
+        <span><img src="https://images.theconversation.com/files/38926/original/5cwx89t4-1389586191.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" /></span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input value="https://pixel.nymag.com/imgs/daily/selectall/2018/04/05/amchop.w710.h473.jpg" name="choice" type="radio" checked />
+        <span><img src="https://pixel.nymag.com/imgs/daily/selectall/2018/04/05/amchop.w710.h473.jpg" /></span>
+      </label>
+    </p>
+         <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>    
+  </form>
+
+    </div>
+ </body>
+
+
